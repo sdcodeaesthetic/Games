@@ -1,0 +1,54 @@
+body {
+  background: url("../images/tttback.jpg");
+  font-family: 'Lato', sans-serif;
+}
+.jumbotron {
+  color: white;
+  background: rgba(0, 0, 0, 0);
+}
+.jumbotron h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5em;
+}
+.jumbotron ol li {
+  list-style: none;
+  font-weight: bold;
+}
+#button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFF;
+  border-radius: 7px;
+  margin-left: 40px;
+}
+.tab {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 50px;
+  border-radius: 10px;
+}
+td {
+  border: 5px solid white;
+  color: white;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  color: white;
+  font-size: 90px;
+}
+@media only screen and (max-width: 570px) {
+  td {
+    height: 90px;
+    width: 90px;
+    font-size: 45px;
+    text-align: center;
+  }
+}
+footer {
+  border-top: 1px solid white;
+  color: white;
+  opacity: 0.6;
+  margin-top: 50px;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.7em;
+}

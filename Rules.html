@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rules</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="icon" type="images/png" href="images/gamezone.png" sizes="32x32">
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      color: #FFF;
+    }
+    body {
+      background: url("images/background.jpg");
+    }
+    .jumbotron {
+      background: rgba(0, 0, 0, 0);
+      margin: 0px 10px;
+      text-align: center;
+    }
+    .jumbotron h1 {
+      font-weight: bold;
+    }
+    footer {
+      border-top: solid 1px white;
+      opacity: 0.65;
+      margin-top: 40px;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.7em;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Rules</h1>
+      </div>
+      <ul>
+        <li>
+          <h3>Tic-Tac-Toe</h3/>
+          <p>The game is played on a grid that's 3 squares by 3 squares.<br>
+             You are X and your friend is O. Players take turns putting their marks in empty squares.<br>
+             The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.<br>
+             When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</p>
+        </li>
+        <li>
+          <h3>Connect Four</h3/>
+          <p>The aim for both players is to make a straight line of four own pieces; the line can be vertical, horizontal or diagonal.<br>
+             Before starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.<br>
+             Moves entails in placing new pieces on the board; pieces slide downwards from upper holes, falling down to the last row or piling up on the last piece introduced in the same column. So, in every turn the introduced piece may be placed at most on seven different squares.<br>
+             The winner is the first player who gets a straight line made with four own pieces and no gaps between them.</p>
+        </li>
+        <li>
+          <h3>Pig Game</h3/>
+          <p>The game has 2 players, playing in rounds.<br>
+             In each turn, a player rolls a dice as many times as he wishes. Each result get added to his ROUND score.<br>
+             BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn.<br>
+             The player can choose to 'Hold', which means that his ROUND score gets added to his GLOBAL score. After that, it's the next player's turn.<br>
+             The first player to reach 100 points or the winning score on GLOBAL score wins the game.</p>
+        </li>
+      </ul>
+      <footer>&copy; 2019 All Rights Reserved.</footer>
+    </div>
+  </body>
+</html>
