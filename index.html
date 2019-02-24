@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Zone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="images/png" href="images/gamezone.png" sizes="32x32">
+    <style>
+      * {
+        box-sizing: border-box;
+        color: #FFF;
+      }
+      body {
+        background: url("images/background.jpg");
+      }
+      .jumbotron {
+        background: rgba(0, 0, 0, 0);
+        margin: 0px 10px;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-weight: bold;
+      }
+      @keyframes fade {
+        0% {
+          opacity: 0;
+          transform: translateY(200%);
+        }
+        25% {
+          opacity: 0.05
+          transform: translateY(150%);
+        }
+        50% {
+          opacity: 0.1;
+          transform: translateY(100%);
+        }
+        75% {
+          opacity: 0.15
+          transform: translateY(50%);
+        }
+        100% {
+          opacity: 0.2
+          transform: translateY(0);
+        }
+      }
+      .row {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        animation-fill-mode: forwards;
+      }
+      @media only screen and (max-width: 768px) {
+        .resp {
+          margin: 20px;
+        }
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.2);
+        font-weight: bold;
+        border-radius: 10px;
+      }
+      .card:hover {
+        box-shadow: 1px 1px 4px 10px gray;
+        transform: scale(1.1);
+      }
+      footer {
+        border-top: solid 1px white;
+        opacity: 0.65;
+        margin-top: 40px;
+        padding: 10px;
+        text-align: center;
+        font-size: 0.7em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to GameZone!</h1>
+      </div>
+      <div class="row" align="center">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card resp" style="width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title">Tic-Tac-Toe</h4>
+              <p class="card-text">Tic-tac-toe (American English), noughts and crosses (British English) or Xs and Os, is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.</p>
+              <a href="Rules.html" class="card-link">Rules</a>
+              <a href="TicTacToe.html" class="card-link">Play</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card resp" style="width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title">Connect Four</h4>
+              <p class="card-text">Connect Four is a two-player connection game in which the players first choose a color and then take turns dropping one colored disc from the top into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.</p>
+              <a href="Rules.html" class="card-link">Rules</a>
+              <a href="Connect Four.html" class="card-link">Play</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card resp" style="width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title">Pig Game</h4>
+              <p class="card-text">Pig is a simple dice game first described in print by John Scarne in 1945. As with many games of folk origin, Pig is played with many rule variations. Commercial variants of Pig include Pass the Pigs, Pig Dice, and Skunk. Pig is commonly used by mathematics teachers to teach probability concepts. Pig is one of a family of dice games described by Reiner Knizia as "jeopardy dice games".</p>
+              <a href="Rules.html" class="card-link">Rules</a>
+              <a href="Pig Game.html" class="card-link">Play</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>&copy; 2019 All Rights Reserved.</footer>
+    </div>
+  </body>
+</html>
